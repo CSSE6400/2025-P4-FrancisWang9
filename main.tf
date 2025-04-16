@@ -21,7 +21,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "hextris-server" {
-    ami = "ami-00a929b66ed6e0de6"
+    ami = "ami-08b5b3a93ed654d19"
     instance_type = "t2.micro"
     key_name      = "vockey"
 
